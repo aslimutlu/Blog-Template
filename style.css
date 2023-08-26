@@ -1,3 +1,7 @@
+.body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .site-header{
     padding: 30px 10px 50px 10px;
 }
@@ -21,7 +25,8 @@
     flex: 1 0 auto;
 }
 
-.nav>li{
+/* nav > li	Selects all <li> elements where the parent is a <nav> element */
+.nav>li{ 
     display: inline-block;
     margin-right: 35px;
     position: relative;
@@ -138,4 +143,29 @@ nav a {
   top: 70%;
   color: white;
   text-align: center;
+}
+
+.card-button{
+  background: grey;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration: none;
+  
+}
+
+.card-text-first{
+  text-align: center;
+  color: white;
+
+}
+
+.card_text_second{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+
 }

@@ -137,7 +137,6 @@ nav a {
 
 .card-text-area{
   background: #151a25;
-  width: 600px;
   height: 100px;
   top: 70%;
   color: white;
@@ -240,4 +239,44 @@ nav a {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
+}
+
+/* gap kullanmak için grid ya da flex olması gerekiyor. 
+Row flex'tir. */
+/* px kullanma, rem kullan. */
+
+.popular-tags-aa{
+  grid-area: aa;
+  display: flex;
+  justify-content: end;
+}
+
+.popular-tags-ab{
+  grid-area: ab;
+  display: flex;
+  justify-content: end;
+}
+
+.popular-tags-ac{
+  grid-area: ac;
+  display: flex;
+  justify-content: end;
+}
+
+.popular-tags-ad{
+  grid-area: ad;
+  display: flex;
+  justify-content: end;
+}
+
+.popular-tags-ae{
+  grid-area: ae;
+  display: flex;
+  justify-content: end;
+}
+
+.popular-tags-af{
+  grid-area: af;
+  display: flex;
+  justify-content: end;
 }

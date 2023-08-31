@@ -236,4 +236,8 @@ nav a {
   width: 100%;
  }
 
- 
+ img.card-img-top {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}

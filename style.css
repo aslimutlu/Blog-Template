@@ -280,3 +280,16 @@ Row flex'tir. */
   display: flex;
   justify-content: end;
 }
+
+.card{
+  --bs-card-border-color: none;
+}
+
+.site-button-end{
+  background: #539aa0;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+  width: 15%;
+}
